@@ -1,0 +1,73 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:  hsl(0, 0%, 8%);
+}
+
+#main {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 28px;
+}
+
+img {
+    border-radius: 50%;
+    height: 70px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(75, 94%, 57%);
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    display: block;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 20%);
+    margin: 10px;
+    height: 30px;
+    width: 250px;
+    padding-top: 10px;
+    border-radius: 11px;
+}
+
+a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+    .attribution a { 
+        color: hsl(75, 94%, 57%); 
+}
